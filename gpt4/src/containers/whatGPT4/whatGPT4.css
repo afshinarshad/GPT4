@@ -1,0 +1,81 @@
+.gpt4__whatgpt4 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background: var(--color-footer);
+
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(90deg, rgba(22, 38, 47, 1) 0%, rgba(26, 1, 70, 1) 100%); 
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-linear-gradient(90deg, rgba(22, 38, 47, 1) 0%, rgba(26, 1, 70, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-linear-gradient(90deg, rgba(22, 38, 47, 1) 0%, rgba(26, 1, 70, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1A0146', endColorstr='#16262F', GradientType=0 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(90deg, rgba(22, 38, 47, 1) 0%, rgba(26, 1, 70, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(90deg, rgba(22, 38, 47, 1) 0%, rgba(26, 1, 70, 1) 100%);
+}
+
+.gpt4__whatgpt4-feature {
+  display: flex;
+}
+
+.gpt4__whatgpt4-feature .gpt4__features-container__feature {
+  margin: 0;
+}
+.gpt4__whatgpt4-feature .gpt4__features-container__feature-text {
+  max-width: 700px;
+}
+
+.gpt4__whatgpt4-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 2rem;
+}
+
+.gpt4__whatgpt4-heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  max-width: 510px;
+}
+
+.gpt4__whatgpt4-heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.gpt4__whatgpt4-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+  .gpt4__whatgpt4-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .gpt4__whatgpt4-heading {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
