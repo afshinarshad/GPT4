@@ -16,10 +16,8 @@ const Header = () => {
           GPT-4 Open AI
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+        The future of AI and humans is a topic of ongoing debate and speculation. While AI has the potential to revolutionize various industries and improve our daily lives, there are also concerns about the impact it may have on employment, privacy, and even our very existence.
+        it's clear that the development of AI will continue to shape the future of humanity in profound ways, and it's important that we approach this technology with caution and foresight.
         </p>
         <div className="gpt4__header-content__input">
           <input type="email" placeholder="your Email Address" />

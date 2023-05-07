@@ -28,6 +28,7 @@
   font-size: 20px;
   line-height: 27px;
   color: var(--color-text);
+  margin-top: 1rem;
 }
 
 .gpt4__header-content__input {
@@ -44,7 +45,6 @@
 
   background: var(--color-footer);
   border: 2px solid var(--color-footer);
-  padding: 0 1rem;
   outline: none;
   line-height: 27px;
   color: #fff;
@@ -75,7 +75,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .gpt4__header-content__people img {
@@ -98,6 +98,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
  
 }
 .gpt4__header-image img {

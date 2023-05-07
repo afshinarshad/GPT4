@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
-import gpt4logos from "../../assets/gpt4logos.png";
+import gpt4 from "../../assets/gpt4.png";
 
 const Menu = () => (
   <>
@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className="gpt4__navbar ">
       <div className="gpt4__navbar-links">
         <div className="gpt4__navbar-links_logo">
-          <img src={gpt4logos} alt="logo" />
+          <img src={gpt4} alt="logo" />
         </div>
         <div className="gpt4__navbar-links_container">
           <Menu />

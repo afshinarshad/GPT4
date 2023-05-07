@@ -19,10 +19,10 @@ const Footer = () => {
         </div>
         <div className="gpt4__footer-links_div">
           <h4>Links</h4>
-          <p>Overons</p>
+          <p>Duolingo</p>
           <p>Social Media</p>
-          <p>Counters</p>
-          <p>Contact</p>
+          <p>API waitlist</p>
+          <p>Contributions</p>
         </div>
         <div className="gpt4__footer-links_div">
           <h4>Company</h4>
@@ -32,14 +32,14 @@ const Footer = () => {
         </div>
         <div className="gpt4__footer-links_div">
           <h4>Get in touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p>Gilroy-Medium</p>
+          <p>Support</p>
+          <p>Help</p>
           <p>info@payme.net</p>
         </div>
       </div>
       <div className="gpt4__footer-copyright">
         <p>© 2023 GPT-4. All rights reserved.</p>
-        <p>design & developed by : Afshin Arshad</p>
+        <p>designed and developed by : Afshin Arshad</p>
       </div>
     </div>
   );

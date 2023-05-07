@@ -4,15 +4,22 @@
   justify-content: space-between;
   flex-direction: row;
 }
+.gpt4__features-leftside{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 
 .gpt4__features-heading {
-  flex: 1;
+  flex: 0.5;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
   margin-right: 5rem;
+  margin-bottom: 1rem;
 }
 
 .gpt4__features-heading h1 {
@@ -32,13 +39,24 @@
   color:var(--color-subtext);
   margin-top: 2rem;
 }
+.gpt4__features-image {
+  justify-content: flex-start;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.gpt4__features-image img {
+ size: auto;
+ image-resolution: auto;
+}
 
 .gpt4__features-container {
-  flex: 1.5;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  margin: 0 3rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -50,10 +68,16 @@
   }
 }
 @media screen and (max-width: 550px) {
+  .gpt4__features-image img {
+   width: 80%;
+   height: 80%;
+   }
+
   .gpt4__features-heading h1 {
     font-size: 28px;
     line-height: 38px;
   }
+
   .gpt4__features-heading{
           flex-direction: column;
   }

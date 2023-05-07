@@ -31,7 +31,7 @@
   color: #71e5ff;
 }
 .gpt4__possibility-content h4:last-child {
-  color: #ff8a71;
+  color: #3bc640;
 }
 .gpt4__possibility-content h1 {
   font-family: var(--font-family);
@@ -43,7 +43,7 @@
 .gpt4__possibility-content p {
   font-family: var(--font-family);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 20px;
   color: var(--color-text);
   margin-bottom: 2rem;
 }
